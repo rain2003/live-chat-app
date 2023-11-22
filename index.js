@@ -36,7 +36,7 @@ const authenticateJwt = (req, res, next) => {
   }
 };
 
-mongoose.connect('mongodb+srv://ropz123:Dkmfmb9lzaTJ64IS@atlascluster.n1dl8ny.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "test" });
+mongoose.connect('mongodb+srv://ropz123:<password>@atlascluster.n1dl8ny.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "test" });
 
 // register route
 app.post('/register', async (req, res) => {
